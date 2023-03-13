@@ -1,0 +1,6 @@
+const ROOT_HEADER = document.getElementById('header')
+const ROOT_SECTIONONE = document.getElementById('sectionOne')
+const ROOT_SECTIONTWO = document.getElementById('sectionTwo')
+const ROOT_SECTIONTHREE = document.getElementById('SectionThree')
+const ROOT_PRODUCTS = document.getElementById('products')
+const ROOT_SHOPPING = document.getElementById('shopping')

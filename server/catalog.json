@@ -1,0 +1,66 @@
+ [
+    {
+        "id": "el1",
+        "tagOne": "POP",
+        "tagTwo": "HP",
+        "name": "Harry Potter - Harry Potter",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/1.png?raw=true",
+        "price": 149.99
+    },
+    {
+        "id": "el2",
+        "tagOne": "POP",
+        "tagTwo": "DISNEY",
+        "name": "Frozen 2 - Elsa",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/2.png?raw=true",
+        "price": 212.39
+    },
+    {
+        "id": "el3",
+        "tagOne": "POP",
+        "tagTwo": "DISNEY",
+        "name": "Frozen 2 - Kristoff",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/3.png?raw=true",
+        "price": 125.45
+    },
+    {
+        "id": "el4",
+        "tagOne": "POP",
+        "tagTwo": "ROCKS",
+        "name": "Queen - Freddie",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/4.png?raw=true",
+        "price": 159.95
+    },
+    {
+        "id": "el5",
+        "tagOne": "POP",
+        "tagTwo": "Television",
+        "name": "Big Bang Theory -  Sheldon Cooper",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/5.png?raw=true",
+        "price": 159
+    },
+    {
+        "id": "el6",
+        "tagOne": "POP",
+        "tagTwo": "DISNEY",
+        "name": "Frozen 2 - Elsa Young",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/6.png?raw=true",
+        "price": 149
+    },
+    {
+        "id": "el7",
+        "tagOne": "POP",
+        "tagTwo": "Television",
+        "name": "Stranger Things - Eleven With Eggos",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/7.png?raw=true",
+        "price": 139.99
+    },
+    {
+        "id": "el8 ",
+        "tagOne": "POP",
+        "tagTwo": "DISNEY",
+        "name": "Frozen 2 - Anna",
+        "img": "https://github.com/romanvtch/FunkoMania/blob/main/catalog/8.png?raw=true",
+        "price": 159.99
+    }
+]

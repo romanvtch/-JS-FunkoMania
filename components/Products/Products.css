@@ -1,0 +1,120 @@
+.products-container-bg{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1920px;
+    background: var(--rainbox-bg);
+
+}
+.products-element__title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--light);
+    padding-top: 55px;
+}
+.products-element__subtitle{
+    text-align: center;
+    font-family: 'TT Norms Pro';
+    font-weight: 700;
+    font-size: 36px;
+    color: var(--light);
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    
+    padding:var(--spacing-smal);
+    padding-top: var(--spacing-large);
+    padding-bottom: var(--spacing-large);
+    gap: 5px;
+}
+
+.products-element {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    padding: 20px;
+    border-radius: 31px;
+    border: 1px solid var(--border-color);
+    background: var(--background-color);
+}
+
+.products-element__img {
+    margin-bottom: auto;
+}
+
+.pruducts-element__container {
+    font-weight: 900;
+    font-size: 20px;
+    color: var(--light);
+    margin-top: 24.5px;
+    margin-bottom: auto;
+}
+
+.products-element__tagOne {
+    padding: 3px 28px;
+    margin-right: var(--spacing-smal);
+    border-radius: 40px;
+    background: var(--green);
+}
+
+.products-element__tagTwo {
+    padding: 3px var(--spacing-medium);
+    border-radius: 40px;
+    background: var(--darkblue);
+}
+
+.products-element__name {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: var(--spacing-medium);
+    color: var(--light);
+}
+
+.products-element__price {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: var(--spacing-medium);
+    color: var(--light);
+}
+
+.products-element__button {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    transition: .3s;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 12px 20px;
+    margin-top: 24.5px;
+    border-radius: 40px;
+    color: var(--light);
+    background: var(--dark);
+}
+.products-element__button_active{
+    background: var(--orange);
+}
+
+.products-container__btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 114px;
+}
+.products-element__btn{
+    border: none;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--light);
+    padding: 16px 100px;
+    border-radius: 40px;
+    background: var(--dark);
+    box-shadow: 6px 6px 50px rgba(76, 76, 76, 0.25);
+    transition: 0.3s;
+}
+@media(max-width:1029px){
+    .products-element{
+        margin: 5px auto;
+    }
+}

@@ -1,0 +1,220 @@
+.header-container {
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    font-family: 'Avenir';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px var(--spacing-large);
+    height: 70px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    background-color: var(--dark);
+
+}
+
+.header-element__img {
+    max-width: 202px;
+    max-height: 29px;
+    padding-right: var(--spacing-medium);
+}
+
+.header-navbar {}
+
+.navbar-element__ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+    padding-right: var(--spacing-medium);
+}
+
+.navbar-element__ul li {
+    list-style: none;
+}
+
+.navbar-element__ul a {
+    font-size: 20px;
+    font-weight: 750;
+    color: var(--light);
+    text-decoration: none;
+    /* font-variant: all-small-caps; */
+}
+
+.navbar-element__ul a:hover {
+    color: var(--blue);
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+}
+
+.header-search i {
+    cursor: pointer;
+    font-size: 30px;
+    padding: 4px;
+    background: var(--light);
+    border-radius: 40px 0px 0px 40px;
+}
+
+.header-search input {
+    gap: 10px;
+    width: 296.49px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background: var(--light);
+    box-shadow: 6px 6px 50px rgba(55, 55, 55, 0.25);
+    border-radius: 0px 40px 40px 0px;
+}
+
+.header-icon {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.header-icon i {
+    cursor: pointer;
+    margin-left: var(--spacing-smal);
+    font-size: 28px;
+    color: var(--light);
+}
+
+.header-element__bg {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    height: 145px;
+    width: 100%;
+    /* border-bottom: 5px solid var(--); */
+    background: var(--rainbox-bg);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    display: none;
+    transition: all 0.3s;
+}
+
+.header-counter {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: var(--light);
+}
+
+.header-counter i {
+    cursor: pointer;
+}
+
+.header-container__menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: var(--light);
+    margin: 6px 0;
+    transition: 0.4s;
+    margin-right: var(--spacing-smal);
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Large desktops and laptops */
+@media (max-width: 1200px) {
+    .header-search {
+        display: none;
+    }
+}
+
+/* Portrait tablets and medium desktops */
+@media (max-width: 992px) {}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 768px) {
+    .header-container {
+        padding: 0;
+        padding-left: var(--spacing-medium);
+    }
+
+    .header-icon .bx-user-circle {
+        display: none;
+    }
+
+    .header-counter {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        z-index: 10;
+    }
+
+    .header-counter i {
+        height: 40px;
+        width: 40px;
+        padding: 5.5px;
+        border-radius: 50%;
+        background: var(--dark);
+    }
+
+    .header-container__menu {
+        display: inline-block;
+    }
+
+    .navbar-element__ul {
+        display: none;
+    }
+
+    .navbar-element__ul.active {
+        display: block;
+        position: absolute;
+        top: 75px;
+        left: 10px;
+        z-index: 2;
+    }
+
+    .header-search.active {
+        display: flex;
+        max-width: 100%;
+        width: 100%;
+        min-width: 30px;
+        position: absolute;
+        top: 160px;
+        left: 10px;
+        z-index: 2;
+    }
+    body.active{
+        overflow: hidden;
+    }
+
+    .header-element__bg.active {
+        display: block;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {}
+
+/* Small phones */
+@media (max-width:320px) {}

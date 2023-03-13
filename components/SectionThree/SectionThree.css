@@ -1,0 +1,23 @@
+.sectionThree-container {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.sectionThree-container img {
+    width: 100%;
+
+}
+
+.sectionThree-container__left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.sectionThree-container__left h2{
+    color: var(--light);
+    font-weight: 700;
+    font-size: 60px;
+}
